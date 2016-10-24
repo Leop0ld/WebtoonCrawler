@@ -9,3 +9,4 @@
 
 # for Python cache files
 *.pyc
+.cache
