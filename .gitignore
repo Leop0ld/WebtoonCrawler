@@ -1,0 +1,11 @@
+# for Mac
+.DS_Store
+
+# for IDE setting files
+.idea
+
+# for Autoenv
+.env
+
+# for Python cache files
+*.pyc
