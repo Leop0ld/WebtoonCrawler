@@ -70,7 +70,7 @@ def download_webtoon(webtoon_id):
     image_list = image_tree.xpath('//*[@alt="comic content"]')
     index = 1
     for image in image_list:
-        #download_image(image.attrib['src'], str(index)+'.jpg', 'webtoon/')
+        # download_image(image.attrib['src'], str(index)+'.jpg', 'webtoon/')
         index += 1
 
     pass
@@ -106,4 +106,4 @@ html_content = get_html(WEBTOON_LIST_URL)
 today_webtoon_list = search_today_webtoon_list(html_content)
 weekday = search_weekday(html_content)
 
-download_webtoon('675823')
+# download_webtoon('675823')

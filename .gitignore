@@ -14,3 +14,6 @@
 # coverage files
 .coverage
 covergae.xml
+
+# test files
+test.jpg
