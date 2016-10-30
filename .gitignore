@@ -10,3 +10,7 @@
 # for Python cache files
 *.pyc
 .cache
+
+# coverage files
+.coverage
+covergae.xml
