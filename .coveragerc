@@ -1,0 +1,11 @@
+[report]
+omit =  
+    */python?.?/*
+    *__init__*
+    */migrations/*.py
+    */test*.py
+    board/admin.py
+    board/apps.py
+    board/urls.py
+    accounts/apps.py
+    accounts/urls.py
